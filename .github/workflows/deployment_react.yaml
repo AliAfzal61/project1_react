@@ -8,7 +8,7 @@ jobs:
     name: Deploying to surge
     steps:
       - uses: actions/checkout@v2
-      - name: Install NodeJS
+      - name: Install Node.js
         uses: actions/setup.node@v2-beta
         with:
           node-version: 12
